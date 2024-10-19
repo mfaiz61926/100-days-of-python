@@ -1,4 +1,4 @@
-#for notes go in the replit for python new
+# how import works
 import pandas
 import hashlib
 print("hi")
