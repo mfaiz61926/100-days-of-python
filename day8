@@ -1,0 +1,20 @@
+#CREARTING A CALCULATOR
+
+a = int(input("Enter the first number:"))
+b = int(input("Enter the second number:"))
+print("press + for addition:")
+print("press - for subtraction:")
+print("press * for multiplication:")
+print("press / for division:")
+x=input("enter your symbol")
+if(x=="+"):
+    print("The value of", a, "+", 3, "is: ", a + b)
+
+if(x=="-"):
+    print("The value of", a, "-", 3, "is: ", a - b)
+
+if(x=="*"):
+    print("The value of", a, "*", 3, "is: ", a * b)
+
+if(x=="/"):
+    print("The value of", a, "/", 3, "is: ", a / b)
